@@ -19,5 +19,4 @@ node {
           sh 'docker push tseringnamgyal/docker-nodejs-demo'
      }
     }
-  }
-} 
+  } 
