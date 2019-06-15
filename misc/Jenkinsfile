@@ -17,5 +17,7 @@ node {
           sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
           sh 'docker push tseringnamgyal/docker-nodejs-demo'
      }
+    }
    }
+ }
 }
